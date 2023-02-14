@@ -868,7 +868,6 @@ static void xfrm_state_get_back_trace(struct xfrm_state_trace *trace)
 #endif
 }
 
-static void xfrm_state_print_back_trace(struct xfrm_state_trace *trace)
 {
 #ifdef CONFIG_MTK_ENG_BUILD
 	int i;
